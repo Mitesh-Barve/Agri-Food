@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "truffle compile && next build",
+    "build": "npx truffle compile && next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -36,6 +36,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.13.2",
     "tailwindcss": "^4",
+    "truffle": "^5.11.5",
     "typescript": "^5"
   }
 }
