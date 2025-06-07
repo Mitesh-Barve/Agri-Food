@@ -2,12 +2,12 @@
   "name": "agrifood-blockchain",
   "version": "0.1.0",
   "private": true,
-"scripts": {
-  "dev": "npx next dev",
-  "build": "npx truffle compile && npx next build",
-  "start": "npx next start",
-  "lint": "npx next lint"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "truffle compile && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "@tabler/icons-react": "^3.31.0",
     "axios": "^1.8.4",
