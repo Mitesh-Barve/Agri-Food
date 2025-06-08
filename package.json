@@ -2,15 +2,15 @@
   "name": "agrifood-blockchain",
   "version": "0.1.0",
   "private": true,
-"scripts": {
-  "dev": "next dev",
-  "build": "truffle compile && npx next build",
-  "start": "next start",
-  "lint": "next lint"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "truffle compile && npx next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "@tabler/icons-react": "^3.31.0",
-    "axios": "^1.8.4",
+    "axios": "^1.9.0",
     "ejs": "^3.1.10",
     "ethers": "^6.13.5",
     "next": "15.2.4",
@@ -36,7 +36,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.13.2",
     "tailwindcss": "^4",
-    "truffle": "^5.11.5",
+    "truffle": "^5.5.7",
     "typescript": "^5"
   }
 }
